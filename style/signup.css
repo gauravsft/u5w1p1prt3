@@ -1,0 +1,50 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.navbar{
+  
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+    background-color: aliceblue;
+    margin: auto;
+}
+.navbar>a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    padding: 1.4%;
+    padding-left: 4%;
+
+}
+
+.signup{
+    height: 400px;
+    width: 25%;
+    margin: auto;
+}
+
+.signup>form >input{
+    width: 90%;
+    margin: auto;
+}
+
+#signup1heading{
+    text-align: center;
+}
+
+#signupBtn{
+    
+    margin-top: 8%;
+    margin-left: 1%;
+    background-color:black;
+    color: white;
+    
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
